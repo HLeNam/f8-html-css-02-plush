@@ -530,3 +530,37 @@ a {
     border-radius: 50%;
     background: var(--primary-color);
 }
+
+/* Count Down */
+.count-down {
+    margin-top: 389px;
+}
+
+.count-down .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 200px;
+}
+
+.count-down .row .column {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-down .row .quantity strong {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.count-down .row desc {
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: normal;
+}
