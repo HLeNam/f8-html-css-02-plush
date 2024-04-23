@@ -387,6 +387,7 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 .feature-list {
