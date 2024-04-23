@@ -6,6 +6,11 @@
     --primary-color: #2ac9bf;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -352,6 +357,14 @@ a {
     margin-top: 130px;
 }
 
+.features::before {
+    content: "";
+    display: block;
+    height: 100px; /* Đặt chiều cao này bằng với chiều cao của nav bar */
+    margin-top: -100px; /* Đặt margin-top này bằng với giá trị âm của chiều cao */
+    visibility: hidden;
+}
+
 .features .info {
     width: 591px;
 }
@@ -446,7 +459,7 @@ a {
 .courses .courses-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 79px;
+    padding-top: 79px;
 }
 
 .courses-item {
@@ -534,6 +547,14 @@ a {
 /* Count Down */
 .count-down {
     margin-top: 389px;
+}
+
+.count-down::before {
+    content: "";
+    display: block;
+    height: 200px; /* Đặt chiều cao này bằng với chiều cao của nav bar */
+    margin-top: -200px; /* Đặt margin-top này bằng với giá trị âm của chiều cao */
+    visibility: hidden;
 }
 
 .count-down .row {
