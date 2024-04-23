@@ -692,3 +692,92 @@ a {
     right: 32px;
     bottom: 29px;
 }
+
+/* Message */
+.message {
+    margin-top: 206px;
+    background: #def6f5;
+}
+
+.message .row {
+    display: flex;
+    align-items: center;
+    padding: 76px 0 88px;
+}
+
+.message-block .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.message-block .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+.message .start-btn {
+    margin-left: 410px;
+}
+
+/* Footer */
+.footer {
+    padding: 131px 135px 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+.footer .column .list {
+    margin-top: 26px;
+}
+
+.footer .column .desc {
+    color: #535353;
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+.footer .social-item {
+    margin-bottom: 18px;
+}
+
+.footer .social-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer .social-item a {
+    display: flex;
+    align-items: center;
+    gap: 0 9px;
+}
+
+.footer .column li {
+    margin-bottom: 18px;
+}
+
+.footer .column li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .copyright {
+    padding-top: 80px;
+}
+
+.footer .copyright p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: normal;
+}
